@@ -3,8 +3,6 @@
 <head>
 <meta charset="utf-8">
 <meta name="robots" content="noindex, nofollow, noarchive">
-<meta property="og:title" content="Obras licenciadas em Lisboa 2026 — amostra">
-<meta property="og:description" content="Amostra da lista de obras licenciadas em Lisboa em 2026, com morada, tipo e área.">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Amostra — Obras licenciadas em Lisboa 2026</title>
 <style>
@@ -26,6 +24,15 @@
   .chip.on{background:var(--azul);color:#fff;border-color:var(--azul)}
   .chip .n{opacity:.62;font-size:11.5px;margin-left:4px}
   input[type=search]{flex:1;min-width:170px;padding:9px 12px;border:1px solid var(--linha);border-radius:9px;font-size:14px}
+  .provoca{display:flex;justify-content:space-between;align-items:center;gap:18px;flex-wrap:wrap;
+    background:linear-gradient(100deg,#164E75,#1f6187);color:#fff;border-radius:12px;
+    padding:16px 18px;margin-bottom:16px}
+  .provoca-txt b{display:block;font-size:16.5px;margin-bottom:4px}
+  .provoca-txt span{font-size:13.5px;color:#cfe0ea}
+  .provoca-bt{background:#36A269;color:#fff;text-decoration:none;padding:12px 18px;border-radius:9px;
+    font-weight:800;font-size:14px;white-space:nowrap}
+  .provoca-bt:hover{filter:brightness(.95)}
+  @media(max-width:760px){.provoca{flex-direction:column;align-items:stretch;text-align:center}.provoca-bt{text-align:center}}
   .resumo{display:flex;gap:16px;flex-wrap:wrap;font-size:13px;color:var(--suave);margin:2px 0 12px}
   .resumo b{color:var(--azul);font-size:15px}
   table{width:100%;border-collapse:collapse;background:#fff;border:1px solid var(--linha);border-radius:12px;overflow:hidden;font-size:13.5px}
@@ -81,6 +88,16 @@
       <span class="rotulo">Buscar</span>
       <input type="search" id="busca" placeholder="Rua ou processo (funciona igual na versão completa)">
     </div>
+  </div>
+
+  <div class="provoca">
+    <div class="provoca-txt">
+      <b>Está a ver 5 de 597 obras.</b>
+      <span>As outras 574 trazem morada, tipo de intervenção, área e mapa — e não estão nesta página.</span>
+    </div>
+    <a class="provoca-bt" href="mailto:willian.abbin@gmail.com?subject=Quero%20a%20lista%20de%20obras%20de%20Lisboa%202026">
+      Quero a lista completa — 240 €
+    </a>
   </div>
 
   <div class="resumo">
