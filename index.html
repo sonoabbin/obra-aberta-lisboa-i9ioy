@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="pt-PT">
+<head>
+<meta charset="utf-8">
+<meta name="robots" content="noindex, nofollow, noarchive">
+<meta property="og:title" content="Obras licenciadas em Lisboa 2026 — amostra">
+<meta property="og:description" content="Amostra da lista de obras licenciadas em Lisboa em 2026, com morada, tipo e área.">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Amostra — Obras licenciadas em Lisboa 2026</title>
+<style>
+  :root{--azul:#164E75;--verde:#36A269;--cinza:#EDF1F4;--linha:#dbe3ea;--tinta:#1b2a36;--suave:#5b7186}
+  *{box-sizing:border-box}
+  body{margin:0;background:#f7f9fb;color:var(--tinta);font:15px/1.5 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Arial,sans-serif}
+  .faixa{background:#36A269;color:#fff;font-size:13px;font-weight:700;text-align:center;padding:8px 14px;letter-spacing:.4px}
+  header{background:var(--azul);color:#fff;padding:24px}
+  header .k{font-size:11px;letter-spacing:1.3px;text-transform:uppercase;color:#a9c6d8}
+  header h1{margin:5px 0 4px;font-size:22px;font-weight:800}
+  header p{margin:0;color:#cfe0ea;font-size:13.5px}
+  .wrap{max-width:1060px;margin:0 auto;padding:18px 18px 40px}
+  .painel{background:#fff;border:1px solid var(--linha);border-radius:12px;padding:14px 16px;margin-bottom:14px}
+  .linha-campo{display:flex;gap:10px;flex-wrap:wrap;align-items:center;margin-bottom:10px}
+  .linha-campo:last-child{margin-bottom:0}
+  .rotulo{font-size:11px;font-weight:800;letter-spacing:.6px;text-transform:uppercase;color:var(--suave);min-width:76px}
+  .chip{border:1px solid var(--linha);background:#fff;border-radius:999px;padding:5px 11px;font-size:12.5px;cursor:pointer;white-space:nowrap}
+  .chip:hover{border-color:var(--verde)}
+  .chip.on{background:var(--azul);color:#fff;border-color:var(--azul)}
+  .chip .n{opacity:.62;font-size:11.5px;margin-left:4px}
+  input[type=search]{flex:1;min-width:170px;padding:9px 12px;border:1px solid var(--linha);border-radius:9px;font-size:14px}
+  .resumo{display:flex;gap:16px;flex-wrap:wrap;font-size:13px;color:var(--suave);margin:2px 0 12px}
+  .resumo b{color:var(--azul);font-size:15px}
+  table{width:100%;border-collapse:collapse;background:#fff;border:1px solid var(--linha);border-radius:12px;overflow:hidden;font-size:13.5px}
+  th{background:var(--cinza);text-align:left;padding:9px 11px;font-size:11px;letter-spacing:.5px;text-transform:uppercase;color:var(--suave);white-space:nowrap}
+  td{padding:9px 11px;border-top:1px solid var(--linha)}
+  td.num{text-align:right;font-variant-numeric:tabular-nums;font-weight:600}
+  .pill{font-size:10.5px;font-weight:700;padding:3px 8px;border-radius:999px;white-space:nowrap}
+  .p-alt{background:#eaf1f7;color:#2b5d7d}
+  .p-amp{background:#e8f5ee;color:#22623f}
+  .p-new{background:#fff3cd;color:#7a5b00}
+  .mapa{font-size:12px;text-decoration:none;color:var(--azul);border:1px solid var(--linha);border-radius:8px;padding:4px 9px;white-space:nowrap}
+  .mapa:hover{background:var(--cinza)}
+  .divisor{display:flex;align-items:center;gap:12px;margin:16px 0 8px}
+  .divisor .linha{flex:1;height:1px;background:var(--linha)}
+  .divisor .rotulo-divisor{font-size:11px;font-weight:800;letter-spacing:.5px;text-transform:uppercase;color:var(--suave);white-space:nowrap}
+  .bloqueado{position:relative;margin-top:0}
+  .borrado{filter:blur(4.5px);user-select:none;pointer-events:none;opacity:.55}
+  .selo{position:absolute;inset:0;display:grid;place-items:center;text-align:center;padding:20px}
+  .selo .caixa{background:rgba(255,255,255,.97);border:1px solid var(--linha);border-radius:14px;
+    padding:20px 24px;box-shadow:0 12px 34px rgba(9,32,50,.16);max-width:430px}
+  .selo h3{margin:0 0 6px;font-size:17px;color:var(--azul)}
+  .selo p{margin:0 0 14px;font-size:13.5px;color:var(--suave)}
+  .selo .bt{display:inline-block;background:var(--verde);color:#fff;text-decoration:none;
+    padding:11px 18px;border-radius:9px;font-weight:700;font-size:14px}
+  .selo .peq{margin-top:10px;font-size:12px;color:var(--suave)}
+  .oferta{background:var(--azul);color:#fff;border-radius:14px;padding:22px 24px;margin-top:26px}
+  .oferta h3{margin:0 0 8px;font-size:19px}
+  .oferta p{margin:0 0 6px;color:#cfe0ea;font-size:14px}
+  .oferta .lista{margin:12px 0 16px;font-size:14px;color:#e8f1f6}
+  .oferta .cta{display:inline-block;background:#fff;color:var(--azul);text-decoration:none;
+    padding:12px 20px;border-radius:10px;font-weight:800;font-size:15px}
+  .oferta .contato{margin-top:12px;font-size:13px;color:#cfe0ea}
+</style>
+</head>
+<body>
+
+<div class="faixa">AMOSTRA · 1 obra por freguesia · a lista completa tem 597 obras</div>
+
+<header>
+  <div class="k">Obra Aberta · dados de obra</div>
+  <h1>Obras licenciadas em Lisboa — 2026</h1>
+  <p>Amostra da ferramenta. Filtre por freguesia e veja uma obra de cada uma — na lista completa são 597.</p>
+</header>
+
+<div class="wrap">
+
+  <div class="painel">
+    <div class="linha-campo">
+      <span class="rotulo">Freguesia</span>
+      <div id="chips-freg" style="display:flex;gap:7px;flex-wrap:wrap"></div>
+    </div>
+    <div class="linha-campo">
+      <span class="rotulo">Buscar</span>
+      <input type="search" id="busca" placeholder="Rua ou processo (funciona igual na versão completa)">
+    </div>
+  </div>
+
+  <div class="resumo">
+    <div><b id="n-linhas">0</b> obras nesta amostra</div>
+    <div><b>597</b> na lista completa</div>
+    <div><b>412.217</b> m² no total</div>
+  </div>
+
+  <table>
+    <thead>
+      <tr>
+        <th>Morada</th><th>Freguesia</th><th>Tipo</th>
+        <th style="text-align:right">Área m²</th><th>Alvará</th><th></th>
+      </tr>
+    </thead>
+    <tbody id="corpo"></tbody>
+  </table>
+
+  <div class="divisor">
+    <div class="linha"></div>
+    <div class="rotulo-divisor" id="rotulo-divisor">estas 5 estão liberadas · as outras 574 estão bloqueadas</div>
+    <div class="linha"></div>
+  </div>
+
+  <div class="bloqueado">
+    <div class="borrado" id="bloco-oculto"></div>
+    <div class="selo">
+      <div class="caixa">
+        <h3>Mais 574 obras bloqueadas</h3>
+        <p>A amostra mostra uma obra por freguesia. A lista completa traz as 597 obras de 2026,
+           com filtro por freguesia, busca por rua e mapa em cada endereço.</p>
+        <a class="bt" href="mailto:willian.abbin@gmail.com?subject=Quero%20a%20lista%20de%20obras%20de%20Lisboa%202026">Quero a lista completa — 240 €</a>
+        <div class="peq">pagamento único · entrega no mesmo dia</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="oferta">
+    <h3>Lista completa — Obras de Lisboa 2026</h3>
+    <p>597 obras licenciadas entre 1 de janeiro e 29 de outubro de 2026.</p>
+    <div class="lista">
+      · Morada, freguesia, tipo de intervenção, área e data do alvará<br>
+      · Planilha em Excel com filtro pronto<br>
+      · Ferramenta com botões por freguesia e mapa de cada obra<br>
+      · Versão de 22 páginas para imprimir e levar no carro
+    </div>
+    <p style="font-size:22px;font-weight:800;color:#fff;margin:0 0 12px">240 € &nbsp;<span style="font-size:13px;font-weight:400;color:#cfe0ea">pagamento único</span></p>
+    <a class="cta" href="mailto:willian.abbin@gmail.com?subject=Quero%20a%20lista%20de%20obras%20de%20Lisboa%202026">Responder e receber hoje</a>
+    <div class="contato">Willian Abbin · +351 921 059 754 · willian.abbin@gmail.com · Obra Aberta</div>
+  </div>
+
+</div>
+
+<script>
+const AMOSTRA = [{"m": "Rua Conselheiro Emídio Navarro, ISEL", "f": "Marvila", "t": "Ampliação", "a": 31022, "d": "09/06/2026", "p": "e-EDI/2025/816"}, {"m": "Praça José Queirós, 1", "f": "Olivais", "t": "Ampliação", "a": 17643, "d": "31/07/2026", "p": "e-EDI/2024/570"}, {"m": "Largo da Graça, 94", "f": "São Vicente", "t": "Ampliação", "a": 12873, "d": "27/02/2026", "p": "e-EDI/2021/54"}, {"m": "Rua Engenheiro Vieira da Silva, 18-18B", "f": "Arroios", "t": "Alteração", "a": 7887, "d": "23/01/2026", "p": "e-EDI/2025/1414"}, {"m": "Rua Bartolomeu Dias, 53-59", "f": "Belém", "t": "Alteração", "a": 6588, "d": "07/01/2026", "p": "e-EDI/2023/1489"}, {"m": "Parque Eduardo VII de Inglaterra, Clube Ténis", "f": "Avenidas Novas", "t": "Alteração", "a": 6060, "d": "12/03/2026", "p": "e-EDI/2024/1399"}, {"m": "Alameda dos Oceanos, 119-119G", "f": "Parque das Nações", "t": "Alteração", "a": 5730, "d": "24/04/2026", "p": "e-EDI/2025/1884"}, {"m": "Rua da Junqueira, 112-114", "f": "Alcântara", "t": "Ampliação", "a": 3258, "d": "20/02/2026", "p": "e-EDI/2023/525"}, {"m": "Avenida da Liberdade, 203-215", "f": "Santo António", "t": "Alteração", "a": 3201, "d": "23/04/2026", "p": "e-EDI/2025/1356"}, {"m": "Rua do Jardim Botânico, 2-8", "f": "Ajuda", "t": "Ampliação", "a": 2807, "d": "24/04/2026", "p": "e-EDI/2025/511"}, {"m": "Rua Áurea, 205-217", "f": "Santa Maria Maior", "t": "Alteração", "a": 2512, "d": "19/03/2026", "p": "e-EDI/2025/1568"}, {"m": "Rua de Campolide, 235", "f": "Campolide", "t": "Construção Nova", "a": 2376, "d": "05/03/2026", "p": "e-EDI/2025/1384"}, {"m": "Largo do Calhariz, 20-25", "f": "Misericórdia", "t": "Ampliação", "a": 2248, "d": "17/09/2026", "p": "e-EDI/2025/1201"}, {"m": "Rua Gorgel do Amaral, 1-1A", "f": "Campo de Ourique", "t": "Alteração", "a": 2125, "d": "01/10/2026", "p": "e-EDI/2026/84"}, {"m": "Calçada Ribeiro Santos, 7-7B", "f": "Estrela", "t": "Ampliação", "a": 2086, "d": "23/06/2026", "p": "e-EDI/2024/950"}, {"m": "Alameda das Linhas de Torres, 1", "f": "Lumiar", "t": "Ampliação", "a": 1558, "d": "14/01/2026", "p": "e-EDI/2020/409"}, {"m": "Avenida Frei Miguel Contreiras, 52-52E", "f": "Alvalade", "t": "Ampliação", "a": 1392, "d": "31/07/2026", "p": "e-EDI/2026/463"}, {"m": "Rua Barão de Sabrosa, 269", "f": "Areeiro", "t": "Alteração", "a": 1291, "d": "28/08/2026", "p": "e-EDI/2026/964"}, {"m": "Rua do Grilo, 133-137", "f": "Beato", "t": "Alteração", "a": 1059, "d": "08/06/2026", "p": "e-EDI/2024/1115"}, {"m": "Estrada das Laranjeiras, 208-208H", "f": "São Domingos de Benfica", "t": "Ampliação", "a": 838, "d": "04/08/2026", "p": "e-EDI/2025/1411"}, {"m": "Rua Rogério Amaral(antigo Impasse VI à Calçada do Tojal), 4-4B", "f": "Benfica", "t": "Alteração", "a": 657, "d": "17/01/2026", "p": "e-EDI/2025/711"}, {"m": "Rua Neves Ferreira, 17-17C", "f": "Penha de França", "t": "Alteração", "a": 555, "d": "23/02/2026", "p": "e-EDI/2025/1085"}, {"m": "Travessa do Cascão, 2-4", "f": "Carnide", "t": "Ampliação", "a": 485, "d": "21/04/2026", "p": "e-EDI/2020/182"}];
+const DESTAQUE = [{"m": "Rua Conselheiro Emídio Navarro, ISEL", "f": "Marvila", "t": "Ampliação", "a": 31022, "d": "09/06/2026", "p": "e-EDI/2025/816"}, {"m": "Largo da Graça, 94", "f": "São Vicente", "t": "Ampliação", "a": 12873, "d": "27/02/2026", "p": "e-EDI/2021/54"}, {"m": "Rua Engenheiro Vieira da Silva, 18-18B", "f": "Arroios", "t": "Alteração", "a": 7887, "d": "23/01/2026", "p": "e-EDI/2025/1414"}, {"m": "Estrada da Circunvalação, CL", "f": "Olivais", "t": "Construção Nova", "a": 7809, "d": "02/09/2026", "p": "e-EDI/2024/1498"}, {"m": "Rua Bartolomeu Dias, 53-59", "f": "Belém", "t": "Alteração", "a": 6588, "d": "07/01/2026", "p": "e-EDI/2023/1489"}];
+const TOTAL = 597;
+
+let filtroFreg = "todas";
+const porFreg = {};
+AMOSTRA.forEach(d => porFreg[d.f] = 1);
+
+function classeTipo(t){
+  if (t === "Ampliação") return "p-amp";
+  if (t === "Construção Nova") return "p-new";
+  return "p-alt";
+}
+
+function montarChips(){
+  const cf = document.getElementById("chips-freg");
+  const todas = `<button class="chip on" data-freg="todas">Todas</button>`;
+  const lista = Object.keys(porFreg).sort()
+    .map(f => `<button class="chip" data-freg="${f}">${f}</button>`).join("");
+  cf.innerHTML = todas + lista;
+  cf.querySelectorAll(".chip").forEach(b => b.onclick = () => {
+    filtroFreg = b.dataset.freg;
+    cf.querySelectorAll(".chip").forEach(x => x.classList.toggle("on", x === b));
+    render();
+  });
+}
+
+function render(){
+  const q = document.getElementById("busca").value.toLowerCase().trim();
+  const base = (filtroFreg === "todas") ? DESTAQUE : AMOSTRA.filter(d => d.f === filtroFreg);
+  const lista = base.filter(d => (!q || (d.m + " " + d.p).toLowerCase().includes(q)));
+  document.getElementById("n-linhas").textContent = lista.length;
+  const rot = document.getElementById("rotulo-divisor");
+  if (rot) {
+    rot.textContent = (filtroFreg === "todas")
+      ? `estas ${lista.length} estão liberadas · as outras 574 estão bloqueadas`
+      : `esta obra de ${filtroFreg} está liberada · as outras 574 estão bloqueadas`;
+  }
+  const corpo = document.getElementById("corpo");
+  if (!lista.length){
+    corpo.innerHTML = `<tr><td colspan="6" style="padding:22px;text-align:center;color:#5b7186">Nada nesta amostra com esse filtro — na lista completa existem 574 obras além destas.</td></tr>`;
+    return;
+  }
+  corpo.innerHTML = lista.map(d => {
+    const link = "https://www.google.com/maps/search/?api=1&query=" +
+      encodeURIComponent(d.m + ", Lisboa, Portugal");
+    return `<tr>
+      <td>${d.m}</td>
+      <td>${d.f}</td>
+      <td><span class="pill ${classeTipo(d.t)}">${d.t}</span></td>
+      <td class="num">${d.a.toLocaleString("pt-PT")}</td>
+      <td>${d.d}</td>
+      <td><a class="mapa" href="${link}" target="_blank" rel="noopener">Mapa</a></td>
+    </tr>`;
+  }).join("");
+}
+
+const OCULTAS = [{"m": "Rua Pereira Henriques, 1-5", "f": "Marvila", "t": "Ampliação", "a": 23227, "d": "14/01/2026", "p": "e-EDI/2023/342"}, {"m": "Avenida Marechal Gomes da Costa, 19-19B", "f": "Marvila", "t": "Ampliação", "a": 14328, "d": "11/06/2026", "p": "e-EDI/2025/331"}, {"m": "Estrada da Circunvalação, CL", "f": "Olivais", "t": "Construção Nova", "a": 7809, "d": "02/09/2026", "p": "e-EDI/2024/1498"}, {"m": "Rua Marquês de Fronteira, 14-16", "f": "Avenidas Novas", "t": "Ampliação", "a": 4810, "d": "27/07/2026", "p": "e-EDI/2023/490"}, {"m": "Avenida Álvaro Pais, 2-2E", "f": "Avenidas Novas", "t": "Ampliação", "a": 4299, "d": "07/07/2026", "p": "e-EDI/2024/1356"}, {"m": "Via do Oriente, 2F-2H", "f": "Parque das Nações", "t": "Alteração", "a": 3267, "d": "14/10/2026", "p": "e-EDI/2026/584"}, {"m": "Avenida de Berlim, 10-10B", "f": "Parque das Nações", "t": "Construção Nova", "a": 3249, "d": "12/05/2026", "p": "e-EDI/2023/584"}];
+
+function desenharOcultas(){
+  document.getElementById("bloco-oculto").innerHTML =
+    '<table><tbody>' + OCULTAS.map(d => `<tr>
+      <td>${d.m}</td><td>${d.f}</td>
+      <td><span class="pill ${classeTipo(d.t)}">${d.t}</span></td>
+      <td class="num">${d.a.toLocaleString("pt-PT")}</td>
+      <td>${d.d}</td><td><span class="mapa">Mapa</span></td>
+    </tr>`).join("") + '</tbody></table>';
+}
+
+document.getElementById("busca").oninput = render;
+desenharOcultas();
+montarChips();
+render();
+</script>
+</body>
+</html>
